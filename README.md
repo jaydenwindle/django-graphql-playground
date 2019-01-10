@@ -16,4 +16,6 @@ urlpatterns = [
     path('playground/', GraphQLPlaygroundView.as_view(endpoint="<your_graphql_endpoint>")),
 ]
 ```
+You can pass in any valid GraphQL Playground property as an argument to `GraphQLPlaygroundView.as_view`. A full list of supported properties can be found [here](https://github.com/prisma/graphql-playground#properties)
+
 See `example/` for more details.
