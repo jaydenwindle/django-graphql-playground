@@ -1,8 +1,3 @@
-django-graphql-playground
-===============
+# django-graphql-playground
 
-`Apollo GraphQL Playground`__ as a Django view
-
-.. _Playground: https://github.com/prisma/graphql-playground
-
-__ Playground_
+[Apollo GraphQL Playground](https://github.com/prisma/graphql-playground) as a Django view

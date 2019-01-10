@@ -9,12 +9,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-graphql-playground',
-    version='0.1',
+    version='1.0',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',  # example license
     description='Apollo GraphQL Playground as a Django view',
     long_description=README,
+    long_description_content_type='text/markdown',
     url='https://jaydenwindle.com/',
     author='Jayden Windle',
     author_email='jaydenwindle@gmail.com',
