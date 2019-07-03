@@ -1,3 +1,3 @@
-Django==2.1.9
+Django==2.1.10
 django-graphql-playground==1.0
 pytz==2018.9
