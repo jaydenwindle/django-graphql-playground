@@ -8,6 +8,16 @@
 `$ pip install django-graphql-playground`
 
 #### Configure 
+
+```python
+# settings.py
+
+INSTALLED_APPS = [
+    ...
+    'graphql_playground',
+]
+```
+
 ```python
 # urls.py
 
