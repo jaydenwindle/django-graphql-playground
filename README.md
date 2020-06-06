@@ -29,3 +29,19 @@ urlpatterns = [
 You can pass in any valid GraphQL Playground property as an argument to `GraphQLPlaygroundView.as_view`. A full list of supported properties can be found [here](https://github.com/prisma/graphql-playground#properties)
 
 See `example/` for more details.
+
+
+
+#### Graphene Django GraphiQL Replacement 
+
+You can replace the GraphiQL in the graphene_django GraphQLView by using the `GrapeheneGraphQLView` instead of `GraphQLView`. The `graphiql` argument will now enable/disable the playground instead of GraphiQL.
+
+```python
+# urls.py
+from graphql_playground.graphene import GraphenePlaygroundView
+
+urlpatterns = [
+    ...
+    path('graphql', GraphenePlaygroundView.as_view(graphiql=True)),
+]
+```
