@@ -11,6 +11,7 @@ class GraphQLPlaygroundView(TemplateView):
     workspace_name=None
     config=None
     settings=None
+    tabs=None
 
     def __init__(self,
                  endpoint=None,
@@ -26,6 +27,7 @@ class GraphQLPlaygroundView(TemplateView):
             'workspaceName': workspace_name,
             'config': config,
             'settings': settings,
+            'tabs': tabs,
         }
 
     def get_context_data(self, *args, **kwargs):
